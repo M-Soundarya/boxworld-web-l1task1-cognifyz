@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x: hidden;
+    background-color: #eee1ba;
+}
+.header {
+    height: 12vh;
+    width: 100%; 
+    background-color: #894E3F;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+.header-text{
+    color: #894E3F;
+    margin-top: 18%;
+    font-size: 30px;
+    margin-left: 5%;
+}
+.header-text h1 {
+    text-align: left;
+}
+.header-text h1 span{
+    color: #c37960;
+}
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: -100px;
+}
+.logo img {
+    width: 15vh;
+    height: 13vh;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex; 
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    margin: 0 12px; 
+    position: relative;
+}
+
+.navbar a {
+    color: #F4D4B7;
+    text-decoration: none; 
+    font-size: 16px;
+}
+
+.navbar a::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #eee1ba;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.navbar a:hover::after {
+    width: 100%;
+}
+p{
+    color: #5c3429;
+    font-size: 18px;
+}
+/*----------about----------*/
+.about {
+    padding-top: 3%;
+    padding: 30px; 
+}
+.about h1{
+    color: #894E3F;
+    text-align: center;
+}
+.about h1 span{
+    color: #c37960;
+}
+.about p{
+    padding-top: 3%;
+    color: #5c3429;
+    text-align: justify;
+}
+/*---------------product-----------*/
+.Product {
+    width: 97%;
+    margin-right: 1%;
+    padding: 35px; 
+}
+.Product h1{
+    color: #894E3F;
+    text-align: center;
+}
+.Product h1 span{
+    color: #c37960;
+}
+*{
+    box-sizing: border-box;
+ }
+ body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ h1{
+    text-align: center;
+ }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+
+}
+.column{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0px 4px;
+}
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    transition: .5s;
+}
+.column img:hover{
+    box-shadow: 4px 4px 5px rgba(0,0,0,.7);
+}
+@media screen and (max-width:600px){
+    .column{
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+.desc{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: solid;
+    color: #894E3F;
+    text-align: center;
+    font-weight: bold;
+}
+.desc:hover{
+    text-shadow: 4px 4px 5px rgba(117, 85, 85, 0.7);
+}
+/*----------order-------------*/
+.order {
+    width: 97%;
+    margin-right: 1%;
+    padding: 13px;
+}
+
+.order h1 {
+    color: #894E3F;
+    text-align: center;
+}
+.order h4 {
+    color: #894E3F;
+    text-align: center;
+}
+
+.order h1 span {
+    color: #c37960;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form label {
+    color: #894E3F;
+    font-weight: bold;
+}
+
+.form-control1 {
+    width: 55%;
+    padding: 10px;
+    margin-bottom: -35px;
+    border: 1px solid #c37960;
+    border-radius: 5px;
+    color: #5c3429;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+form .submit {
+    background-color: #aa6852;
+    border: none;
+    color: #eee1ba;
+    font-size: 20px;
+    letter-spacing: 2px;
+    height: 50px;
+    transition: 0.4s ease;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 55%;
+}
+
+form .submit:hover {
+    background-color: #5c3429;
+}
+
+input {
+    height: 45px;
+}
+
+/*----------contact---------------*/
+.contact {
+    width: 97%;
+    margin-right: 1%;
+    padding: 35px;
+}
+
+.contact h1 {
+    color: #894E3F;
+    text-align: center;
+}
+.contact h4 {
+    color: #894E3F;
+    text-align: center;
+}
+
+.contact h1 span {
+    color: #c37960;
+}
+
+form{
+    margin-top: 1px;
+    padding-left: 28%;
+}
+
+.form-control{
+    width: 600px;
+    border: none;
+    outline: none;
+    border-top: 2px solid #c37960;
+    border-left: 2px solid #c37960;
+    border-right: 2px solid #c37960;
+    border-bottom: 2px solid #c37960;
+    color: #5c3429;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input {
+    height: 45px;
+}
+
+form .submit {
+    background-color: #aa6852;
+    border-color: transparent;
+    color: #eee1ba;
+    font-size: 20px;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    transition: 0.4s ease;
+    
+}
+
+form .submit:hover {
+    background-color: #5c3429;
+    cursor: pointer;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible"  content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Box World</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="header">
+            <a href="index.html" class="logo"><img src="BOX WORLD.png" alt="Box World Logo"></a>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="productorder.html">Order</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section>
+            <div class="order">
+                <h1>Product <span>Order</span></h1><br>
+                <h4>Order your products now</h4>
+            </div>
+            <div>
+            <form>
+                <label for="product">Product :</label>
+                <input type="text" name="product" class="form-control1" required><br><br>
+                
+                <label for="Qantity">Quantity :</label>
+                <input type="number" name="quantity" class="form-control1" min="1" required><br><br>
+                
+                <label for="name">Name:</label>
+                <input type="text" name="name" class="form-control1" required><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" name="email" class="form-control1" required><br><br>
+                
+                <input type="submit" class="form-control1 submit "value="Order">
+            </form>
+            </div>
+        </section>
+    </body>
+
+</html>
